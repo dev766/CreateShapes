@@ -9,7 +9,20 @@ import SwiftUI
 
 struct Shapes: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+//        Circle()
+//        Ellipse()
+//        Capsule(style: .continuous)
+//        Rectangle()
+        RoundedRectangle(cornerRadius: 7)
+            .fill(Color.gray)
+//            .foregroundColor(.cyan)
+//            .stroke()
+//            .stroke(Color.red)
+//            .stroke(Color.blue, lineWidth: 20)
+//            .stroke(Color.blue, style: StrokeStyle(lineWidth: 30, lineCap: .round, dash: [30], dashPhase: 100))
+//            .trim(from: 0.6, to: 1.0)
+//            .stroke(Color.blue, lineWidth: 9)
+            .frame(width: 200, height: 200)
     }
 }
 
